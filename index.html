@@ -4,9 +4,22 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
+  <title>Kitten</title>
+  <!-- <link rel="stylesheet" href="css/style.css"> -->
+  <style>
+    img { display: block; margin: 0 auto;}
+  </style>
 </head>
 <body>
-  
+    <picture>
+      <source
+      media="(min-whidth: 650px)"
+      srcset="assets/img/kitten-small.png">
+      <source
+      media="(min-whidth: 465px)"
+      srcset="assets/img/kitten-medium.png">
+      <img
+      src="assets/img/kitten-large.png" alt="un lindo gatito">
+    </picture>
 </body>
 </html>
