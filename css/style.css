@@ -1,4 +1,41 @@
-/*img {
+*{
+    box-sizing:border-box;
+    margin: 0;
+    padding: 0;
+}
+
+img {
   display: block;
   margin: 0 auto;
-}*/
+}
+
+.fondo{
+  align-items:flex-end;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+}
+
+picture{
+  align-items:center;
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width:500px) {
+  .fondo{
+    background-image: url("../assets/img/maxresdefault.jpg");
+  }
+}
+
+@media (min-width: 501px) and (max-width: 700px){
+  .fondo{
+    background-image: url("../assets/img/dawn.png");
+  }
+}
+
+@media (min-width:701px) {
+  .fondo{
+    background-image: url("../assets/img/Landscape.jpg");
+  }
+}
